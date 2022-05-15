@@ -7,8 +7,10 @@
     "plugins": ["@typescript-eslint", "react-hooks"],
     "extends": [
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
     ],
+    "ignorePatterns": ["node_modules", "dist"],
     "rules": {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
