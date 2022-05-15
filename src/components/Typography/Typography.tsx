@@ -21,7 +21,7 @@ export const Typography = ({
         <Typography
             data-size={size}
             data-color={color}
-            className={cn('typography', bold && 'typography__bold')}
+            className={cn('typography', bold && 'typography--bold')}
         >
             {children}
         </Typography>

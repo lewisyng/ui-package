@@ -1,10 +1,10 @@
-@import "@scss/main.scss";
+@import '@scss/main';
 
 .typography {
     color: $text-dark;
 }
 
-// todo can be deleted if other css that effects this part has been dealt with
+/* todo can be deleted if other css that effects this part has been dealt with */
 .typography h1,
 h2,
 h3,
@@ -14,47 +14,46 @@ h6 {
     font-weight: normal;
 }
 
-.typography[data-size="3xl"] {
+.typography[data-size='3xl'] {
     font-size: $xxxl-size;
     line-height: $xxxl-line-height;
     font-weight: $xxxl-weight;
 }
 
-.typography[data-size="2xl"] {
+.typography[data-size='2xl'] {
     font-size: $xxl-size;
     line-height: $xxl-line-height;
     font-weight: $xxl-weight;
-
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
-.typography[data-size="xl"] {
+.typography[data-size='xl'] {
     font-size: $xl-size;
     line-height: $xl-line-height;
 }
 
-.typography[data-size="lg"] {
+.typography[data-size='lg'] {
     font-size: $lg-size;
     line-height: $lg-line-height;
     font-weight: $lg-weight;
 }
 
-.typography[data-size="md"] {
+.typography[data-size='md'] {
     font-size: $md-size;
     line-height: $md-line-height;
 }
 
-.typography[data-size="base"] {
+.typography[data-size='base'] {
     font-size: $base-size;
     line-height: $base-line-height;
 }
 
-.typography[data-size="sm"] {
+.typography[data-size='sm'] {
     font-size: $sm-size;
     line-height: $sm-line-height;
 }
 
-.typography__bold {
+.typography--bold {
     font-weight: bold;
 }
